@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    position: relative;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+form #uploadButton{
+    padding: 5px 10px;
+    border: none;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgb(40, 40, 40);
+}
+.thumbnail-container {
+    position: relative;
+    display: inline-block;
+}
+  
+  .delete-button {
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    border: none;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgb(40, 40, 40);
+    position: absolute;
+  }
+
+div #thumbnails{
+    display: flex;
+    margin-bottom: 20px;
+}
+#thumbnails img{
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+    cursor: pointer;
+    object-fit: cover;
+    margin-top: 15px;
+    
+}
+
+#prevButton{
+    padding: 5px 10px;
+    border: none;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgb(40, 40, 40);
+    position: relative;
+    margin-top: 15px;
+}
+#nextButton{
+    padding: 5px 10px;
+    border: none;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgb(40, 40, 40);
+    position: absolute;
+    right: 49%;
+    margin-top: 15px;
+}
